@@ -60,5 +60,11 @@ This project simulates how QA validates event data, detects data quality issues,
 
 \- Validate that tracking does not occur without opt-in consent
 
+## Test cases
+- `tc01_null_user_id_in_events.sql` — user_id must be present in events
+- `tc02_duplicate_event_id.sql` — event_id must be unique
+- `tc03_no_tracking_without_optin.sql` — no tracking without opt-in consent
+
+
 
 
